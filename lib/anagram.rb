@@ -1,5 +1,7 @@
 class Anagram
   attr_accessor :
   
-  def init
+  def initialize(anagram) 
+    
+  end
 end
