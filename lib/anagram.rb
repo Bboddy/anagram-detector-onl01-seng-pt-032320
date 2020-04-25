@@ -7,7 +7,7 @@ class Anagram
   
   def match(array)
     array.select { |word|
-      if word.include? "@anagram"
+      if word.include? @anagram
         return word
       end
     }
