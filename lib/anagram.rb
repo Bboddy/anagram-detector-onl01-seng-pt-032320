@@ -9,7 +9,7 @@ class Anagram
     returnArray = []
     array.select { |word|
       if word.split("").sort == @anagram.split("").sort
-        return returnArray << word
+        return word << returnArray
       end
     }
   end
