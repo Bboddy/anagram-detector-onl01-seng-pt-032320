@@ -6,6 +6,6 @@ class Anagram
   end
   
   def match(array)
-    
+    array.select { |word|
   end
 end
