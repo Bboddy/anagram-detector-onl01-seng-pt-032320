@@ -12,6 +12,6 @@ class Anagram
         returnArray << word
       end
     }
+    return returnArray
   end
-  return returnArray
 end
