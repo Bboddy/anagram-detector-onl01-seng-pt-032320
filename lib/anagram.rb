@@ -9,8 +9,6 @@ class Anagram
     array.select { |word|
       if word.split("").sort == @anagram.split("").sort
         return @anagram
-      else 
-        return nil
       end
     }
   end
