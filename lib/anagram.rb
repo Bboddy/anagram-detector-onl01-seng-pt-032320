@@ -6,9 +6,10 @@ class Anagram
   end
   
   def match(array)
+    returnArray = []
     array.select { |word|
       if word.split("").sort == @anagram.split("").sort
-        return word.to_arr
+        return returnArray << word
       end
     }
   end
